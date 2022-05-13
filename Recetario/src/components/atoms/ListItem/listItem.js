@@ -2,15 +2,11 @@ import React from 'react';
 import {Text, Image, StyleSheet, TouchableOpacity} from 'react-native';
 
 const ListItem = props => {
-  const url = props.url;
-  console.log(url);
   return (
     <TouchableOpacity>
       <Image
         style={styles.image}
-        source={{
-          uri: 'https://cdn3.iconfinder.com/data/icons/vol-5/128/shirt-128.png',
-        }}
+        source={{ uri: props.url }}
       />
       <Text style={styles.text}>{props.title}</Text>
     </TouchableOpacity>
@@ -19,12 +15,16 @@ const ListItem = props => {
 
 const styles = StyleSheet.create({
   image: {
-    width: 100,
+    width: 200,
     height: 100,
+    margin: 5,
+    borderRadius: 10,
   },
   text: {
-    fontSize: 20,
+    fontSize: 15,
     fontWeight: 'bold',
+    color: 'white',
+    textAlign: 'center',
   },
 });
 

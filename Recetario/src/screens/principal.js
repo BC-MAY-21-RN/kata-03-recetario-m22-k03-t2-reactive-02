@@ -1,9 +1,12 @@
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable prettier/prettier */
 import React, {useState} from 'react';
-import {View, Text, Button, StyleSheet} from 'react-native';
+import {View, Text, Button, StyleSheet, ScrollView, SafeAreaView } from 'react-native';
 import Search from '../components/atoms/SearchBar';
-//import jsonData from '../Productos/productos.json';
-import ListItem from '../components/atoms/ListItem';
-//const productos = JSON.parse(jsonData);
+import productos from '../Productos/productos';
+import ListItem from '../components/atoms/ListItem/listItem';
+
+const prop = productos;
 
 const Principal = ({navigation}) => {
   const [search, setSearch] = useState();
@@ -16,10 +19,17 @@ const Principal = ({navigation}) => {
           setSearch(a);
         }}
       />
-      <ListItem
-        title="Pizza"
-        url="https://cdn3.iconfinder.com/data/icons/vol-5/128/shirt-128.png"
-      />
+      <ScrollView horizontal={true}  style={styles.list}>
+        {
+          prop.map((item,key) => (
+            <ListItem 
+              title={ item.title }
+              url={ item.img }
+            />
+          ))
+        }
+      </ScrollView>
+
       <Button
         title="Detalles"
         onPress={() => {
@@ -34,6 +44,10 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: '#4A4646',
     flex: 1,
+
+  },
+  list:{
+    backgroundColor: 'black',
   },
 });
 
