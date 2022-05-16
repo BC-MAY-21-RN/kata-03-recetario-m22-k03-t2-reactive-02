@@ -1,54 +1,46 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-trailing-spaces */
 /* eslint-disable prettier/prettier */
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {View, Text, Button, StyleSheet, ScrollView, SafeAreaView } from 'react-native';
 import Search from '../components/atoms/SearchBar';
-import productos from '../Productos/productos';
-import ListItem from '../components/atoms/ListItem/listItem';
+import productos from '../Productos/productos.json';
+import HorizontalList from '../components/molecules/HorizontalList';
 
 const prop = productos;
+//const productsRecent =  product;
+const recent = new Array();
 
 const Principal = ({navigation}) => {
   const [search, setSearch] = useState();
+  /*useEffect(() => {
+    productsRecent ? recent.push(productsRecent) : recent.push({message:'No tienes productos recientes'});
+  },[]);*/
+
+  console.log(recent);
   return (
-    <View style={styles.container}>
+    <View style = { styles.container }>
       <Search
-        placeholder="What do you want to eat?"
-        value={search}
-        onChangeText={a => {
+        placeholder = "What do you want to eat?"
+        value = { search }
+        onChangeText = { a => {
           setSearch(a);
         }}
       />
-      <ScrollView horizontal={true}  style={styles.list}>
-        {
-          prop.map((item,key) => (
-            <ListItem 
-              title={ item.title }
-              url={ item.img }
-            />
-          ))
-        }
-      </ScrollView>
-
-      <Button
-        title="Detalles"
-        onPress={() => {
-          navigation.navigate('Detalle');
-        }}
-      />
+      <HorizontalList pantalla= {navigation} title="TRENDING" productos = { prop }/>
+      <HorizontalList pantalla= {navigation} title="RECENT" productos = { recent }/>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#4A4646',
+    backgroundColor: '#282828',
     flex: 1,
+  },
 
-  },
-  list:{
-    backgroundColor: 'black',
-  },
 });
 
 export default Principal;
