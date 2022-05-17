@@ -31,8 +31,18 @@ const Principal = ({navigation, route}) => {
           setSearch(a);
         }}
       />
-      <HorizontalList pantalla={navigation} title="TRENDING" productos={prop} />
-      <HorizontalList pantalla={navigation} title="RECENT" productos={recent} />
+      <HorizontalList
+        pantalla={navigation}
+        title="TRENDING"
+        productos={prop}
+        isRecent={false}
+      />
+      <HorizontalList
+        pantalla={navigation}
+        title="RECENT"
+        productos={recent}
+        isRecent={true}
+      />
     </View>
   );
 };
