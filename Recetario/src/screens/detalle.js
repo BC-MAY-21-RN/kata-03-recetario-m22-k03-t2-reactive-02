@@ -13,7 +13,11 @@ const Detalle = ({route, navigation}) => {
       <Button
         title="Volver"
         onPress={() => {
-          navigation.goBack();
+          navigation.navigate({
+            name: 'Principal',
+            params: {post: product},
+            merge: true,
+          });
         }}
       />
     </View>

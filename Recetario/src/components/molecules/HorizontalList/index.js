@@ -4,8 +4,8 @@ import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import ListItem from '../../atoms/ListItem/listItem';
 
 const HorizontalList = props => {
-  const productos = props.productos;
   const pantalla = props.pantalla;
+  const productos = props.productos;
   return (
     <View style={styles.list}>
       <Text style = { styles.textPrincipal } >{ props.title }</Text>
