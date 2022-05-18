@@ -6,7 +6,7 @@ import ListItem from '../../atoms/ListItem/listItem';
 const HorizontalList = props => {
   const {pantalla, productos, isRecent} = props;
   return (
-    <View style={styles.list}>
+    <View>
       <Text style={styles.textPrincipal}>{props.title}</Text>
       <ScrollView horizontal={true}>
         {productos.map((item, key) => (
@@ -26,16 +26,11 @@ const HorizontalList = props => {
 };
 
 const styles = StyleSheet.create({
-  list: {
-    marginTop: 20,
-    marginBottom: 20,
-  },
   textPrincipal: {
     textAlign: 'left',
     fontSize: 25,
-    margin: 3,
     color: '#ad1f61',
-    paddingLeft: 5,
+    paddingLeft: 10,
     fontWeight: 'bold',
   },
 });

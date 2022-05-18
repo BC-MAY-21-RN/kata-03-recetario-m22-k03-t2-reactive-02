@@ -5,7 +5,7 @@ const ListItem = props => {
   const {pantalla, secondStyle, titulo} = props;
   return (
     <TouchableOpacity
-      style={styles.container}
+      style={secondStyle ? styles.container2 : styles.container}
       onPress={() => {
         pantalla.navigate('Detalle', {
           id: props.id,
@@ -25,13 +25,11 @@ const styles = StyleSheet.create({
   image: {
     width: 130,
     height: 130,
-    margin: 7,
     borderRadius: 10,
   },
   image2: {
     width: 145,
-    height: 155,
-    margin: 5,
+    height: 175,
     borderRadius: 10,
   },
   text: {
@@ -39,13 +37,23 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: 'white',
     textAlign: 'center',
+    paddingTop: 5,
   },
   container: {
     margin: 5,
-    padding: 5,
-    justifyContent: 'center',
-    alignContent: 'center',
     height: 200,
+    width: 130,
+    marginLeft: 10,
+    marginRight: 10,
+    marginTop: 15,
+  },
+  container2: {
+    margin: 5,
+    height: 220,
+    width: 145,
+    marginLeft: 10,
+    marginRight: 10,
+    marginTop: 15,
   },
 });
 
