@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
   View,
   Text,
@@ -14,6 +14,12 @@ import CustomButtom from '../components/atoms/CustomButtom';
 const Detalle = ({route, navigation}) => {
   const {id, titulo} = route.params;
   const product = productos.filter(item => item.id === id)[0];
+  const [like, setLike] = useState(product.like);
+  const handleLike = () => {
+    setLike(!like);
+    product.like = !like;
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.sectionsTop}>
@@ -21,6 +27,7 @@ const Detalle = ({route, navigation}) => {
         <View style={styles.iconBar}>
           <CustomButtom
             name="close"
+            color="#f4f5f4"
             onPress={() => {
               navigation.navigate({
                 name: 'Principal',
@@ -32,9 +39,14 @@ const Detalle = ({route, navigation}) => {
           <View style={styles.iconPack}>
             <CustomButtom
               name="share-apple"
+              color="#f4f5f4"
               onPress={() => console.log('compartir')}
             />
-            <CustomButtom name="heart" onPress={() => console.log('like')} />
+            <CustomButtom
+              name="heart"
+              color={like ? '#6BFF7F' : '#f4f5f4'}
+              onPress={handleLike}
+            />
           </View>
         </View>
         <Text style={styles.title}>{product.title}</Text>

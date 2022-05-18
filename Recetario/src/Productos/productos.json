@@ -15,7 +15,7 @@
       },
       {"name": "lemon juice and zest", "amount": "1/2 juice"}
     ],
-    "like": 0,
+    "like": false,
     "servings": "6"
   },
   {
@@ -34,7 +34,7 @@
       {"name": "vanilla extract", "amount": "1 Teaspoon"},
       {"name": "neutral oil", "amount": "50 cubic centimeters "}
     ],
-    "like": 0,
+    "like": false,
     "servings": "12"
   },
   {
@@ -54,7 +54,7 @@
       {"name": "water", "amount": "½ cup"},
       {"name": " colored sprinkles to decorate", "amount": ""}
     ],
-    "like": 0,
+    "like": false,
     "servings": "8"
   },
   {
@@ -75,7 +75,7 @@
       {"name": "liquid sweetener", "amount": "1 tablespoon"},
       {"name": "bitter cocoa", "amount": "3 tablespoons "}
     ],
-    "like": 0,
+    "like": false,
     "servings": "6"
   },
   {
@@ -92,7 +92,7 @@
       {"name": "unsalted butter", "amount": "165 grams "},
       {"name": "white sugar", "amount": "80 grams"}
     ],
-    "like": 0,
+    "like": false,
     "servings": "5"
   }
 ]
