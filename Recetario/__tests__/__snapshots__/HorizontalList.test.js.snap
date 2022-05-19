@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "color": "#ad1f61",
+        "fontSize": 25,
+        "fontWeight": "bold",
+        "paddingLeft": 10,
+        "textAlign": "left",
+      }
+    }
+  />
+  <RCTScrollView
+    horizontal={true}
+  >
+    <View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "height": 200,
+            "margin": 5,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 15,
+            "opacity": 1,
+            "width": 130,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://t2.rg.ltmcdn.com/es/posts/2/7/7/lemon_pie_saludable_75772_600.jpg",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 10,
+              "height": 130,
+              "width": 130,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "paddingTop": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Lemon Pie
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "height": 200,
+            "margin": 5,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 15,
+            "opacity": 1,
+            "width": 130,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://t1.rg.ltmcdn.com/es/posts/1/3/8/budin_de_chocolate_con_aceite_75831_600.jpg",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 10,
+              "height": 130,
+              "width": 130,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "paddingTop": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Chocolate Pudding
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "height": 200,
+            "margin": 5,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 15,
+            "opacity": 1,
+            "width": 130,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://t2.rg.ltmcdn.com/es/posts/9/2/6/pastelitos_argentinos_75629_600.jpg",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 10,
+              "height": 130,
+              "width": 130,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "paddingTop": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Argentinian Pastelitos
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "height": 200,
+            "margin": 5,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 15,
+            "opacity": 1,
+            "width": 130,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://t2.rg.ltmcdn.com/es/posts/2/9/2/brownie_sin_harina_75292_600.jpg",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 10,
+              "height": 130,
+              "width": 130,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "paddingTop": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Flourless Brownie 
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "height": 200,
+            "margin": 5,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 15,
+            "opacity": 1,
+            "width": 130,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://t1.rg.ltmcdn.com/es/posts/0/4/5/pie_de_durazno_75540_600.jpg",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 10,
+              "height": 130,
+              "width": 130,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "paddingTop": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Peach Pie 
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
