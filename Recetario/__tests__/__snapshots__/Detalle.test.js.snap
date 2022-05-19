@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#282929",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": "50%",
+        "marginBottom": 15,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://t2.rg.ltmcdn.com/es/posts/2/7/7/lemon_pie_saludable_75772_600.jpg",
+        }
+      }
+      style={
+        Object {
+          "height": "100%",
+          "opacity": 0.5,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "margin": 10,
+          "marginTop": 15,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#f4f5f4",
+                "fontSize": 50,
+              },
+              undefined,
+              Object {
+                "fontFamily": "EvilIcons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#f4f5f4",
+                  "fontSize": 50,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "EvilIcons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#f4f5f4",
+                  "fontSize": 50,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "EvilIcons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#dfdfde",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "marginLeft": 20,
+          "marginTop": "50%",
+        }
+      }
+    >
+      Lemon Pie
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#dfdfde",
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "marginLeft": 20,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "marginLeft": 20,
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#dfdfde",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Ingredients
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#dfdfde",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      for 
+      6
+       servings
+    </Text>
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "amount": "1",
+            "name": "egg white",
+          },
+          Object {
+            "amount": "70 grams",
+            "name": "wholemeal flour",
+          },
+          Object {
+            "amount": "30 grams",
+            "name": "oatmeal",
+          },
+          Object {
+            "amount": "1 tablespoon",
+            "name": "sugar",
+          },
+          Object {
+            "amount": "1",
+            "name": "yolk",
+          },
+          Object {
+            "amount": "200 milliliters",
+            "name": "skim milk or unsweetened vegetable milk",
+          },
+          Object {
+            "amount": "1/2 juice",
+            "name": "lemon juice and zest",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "flexGrow": 0,
+          "height": 250,
+          "marginTop": 10,
+        }
+      }
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "grey",
+                "borderBottomWidth": 0.6,
+                "borderStyle": "solid",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 15,
+                "paddingTop": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              egg white
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              1
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "grey",
+                "borderBottomWidth": 0.6,
+                "borderStyle": "solid",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 15,
+                "paddingTop": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              wholemeal flour
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              70 grams
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "grey",
+                "borderBottomWidth": 0.6,
+                "borderStyle": "solid",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 15,
+                "paddingTop": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              oatmeal
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              30 grams
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "grey",
+                "borderBottomWidth": 0.6,
+                "borderStyle": "solid",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 15,
+                "paddingTop": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              sugar
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              1 tablespoon
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "grey",
+                "borderBottomWidth": 0.6,
+                "borderStyle": "solid",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 15,
+                "paddingTop": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              yolk
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              1
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "grey",
+                "borderBottomWidth": 0.6,
+                "borderStyle": "solid",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 15,
+                "paddingTop": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              skim milk or unsweetened vegetable milk
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              200 milliliters
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "grey",
+                "borderBottomWidth": 0.6,
+                "borderStyle": "solid",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 15,
+                "paddingTop": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              lemon juice and zest
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#dfdfde",
+                  "fontWeight": "bold",
+                  "marginLeft": 5,
+                }
+              }
+            >
+              1/2 juice
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
